@@ -1,0 +1,14 @@
+[package]
+name = "nes-emulation-toy"
+version = "0.1.0"
+authors = ["Wong Shek Hei Felix <shekhei@gmail.com>"]
+
+[dependencies]
+glium = "*"
+log = "*"
+slog = "*"
+slog-term = "*"
+slog-stdlog = "*"
+
+[profile.release]
+debug = true
